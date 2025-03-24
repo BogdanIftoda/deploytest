@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+drf-yasg = "*"
+celery = "*"
+redis = "*"
+mysqlclient = "*"
+pillow = "*"
+django-filter = "*"
+django-oauth-toolkit = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
